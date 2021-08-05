@@ -1,0 +1,430 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Menu part CSS */
+.menu{
+    background-color: #FFFFFF;
+}
+.menu-containt{
+    display: flex;
+    position: relative;
+}
+
+.menu-containt .left{
+    width: 10%;
+}
+
+.menu-containt .left img{
+    width: 87%;
+}
+
+.menu-containt .middle{
+    width: 60%;
+    text-align: center;
+}
+
+.menu-containt ul{
+    list-style-type: none;
+}
+.menu-containt ul li{
+    display: inline-block;
+}
+.menu-containt ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    line-height: 48px;
+    margin-left: 0;
+}
+.menu-containt ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.menu-containt .right{
+    width: 30%;
+    text-align: center;
+}
+
+/* Banner CSS*/
+
+.banner img{
+    max-width: 100%;
+}
+
+/* Intro CSS */
+
+
+.intro h1{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.intro p{
+    padding-top: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+.intro video{
+    margin-top: 30px;
+}
+
+
+/* Description CSS */
+
+.des .head h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.des .head p{
+    width: 1107px;
+    margin: 0 auto;
+}
+
+
+/* Feature CSS*/
+
+
+.row{
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    margin-bottom: 46px;
+}
+
+/* First row */
+.row .r-1_c-1{
+    width: 50%;
+}
+
+.r-1_c-1 h1{
+    margin-top: 275px;
+    margin-left: 133px;
+    text-align: left;
+    font-weight: normal;
+}
+.r-1_c-1 p{
+    margin-left: 133px;
+    margin-top: 20px;
+    width: 408px;
+    text-align: left;
+}
+
+.r-1_c-2{
+    width: 50%;
+}
+.r-1_c-2 img{
+    width: 711px;
+}
+
+
+/* Second row */
+
+
+.r-2_c-1{
+    width: 50%;
+}
+
+.r-2_c-1 img{
+    width: 711px;
+}
+
+.r-2_c-2{
+    width: 50%;
+}
+
+.r-2_c-2 h1{
+    margin-top: 275px;
+    margin-left: 133px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.r-2_c-2 p{
+    margin-left: 133px;
+    margin-top: 20px;
+    width: 408px;
+    text-align: left;
+}
+
+/* Containt CSS */
+
+.containt{
+    margin: 150px 82px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.containt h1,p{
+    text-align: left;
+    width: 1260px;
+}
+
+.containt h1{
+    font-weight: normal;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.containt p{
+    letter-spacing: -.01em;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    margin: 0;
+}
+
+.containt img{
+    max-width: 100%;
+}
+
+/* Gaming CSS */
+
+.gaming{
+    text-align: center;
+}
+.gaming h1{
+    font-size: 46px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.gaming p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200px;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.gaming img{
+    max-width: 100%;
+}
+
+/* Devices CSS */
+.devices{
+    margin: 150px 82px;
+    margin-bottom: 30px;
+}
+
+.devices h1,p{
+    text-align: left;
+}
+
+.devices h1{
+    font-size: 46px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.devices p{
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+
+.devices img{
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.devices .pcupdate{
+    position: relative;
+    display: flex;
+}
+
+.devices .pcupdate .left{
+    width: 50%;
+}
+
+.devices .pcupdate .left img{
+    max-width: 100%;
+}
+
+.devices .pcupdate .right{
+    width: 50%;
+
+}
+
+.devices .pcupdate .right h1{
+    margin-left: 40px;
+}
+
+.devices .pcupdate .right h1{
+    margin-top: 74px;
+}
+
+.devices .pcupdate .right p{
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.devices .pcupdate .right a{
+    display:inline-block;
+    color: blue;
+    margin: 0px;
+}
+
+
+/* Subscribe CSS */
+.subcri-containt{
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    margin-bottom: 87px;
+}
+
+.subcri-containt .left{
+    width: 50%;
+}
+
+.subcri-containt .right{
+    width: 50%;
+}
+
+.subcri-containt .left h1,p,a{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.subcri-containt .left h1{
+    margin-top: 39px;
+}
+
+.subcri-containt .left p{
+    margin-top: 35px;
+    width: 546px;
+}
+
+.subcri-containt .left a{
+    display: block;
+    text-align: left;
+    color: blue;
+}
+
+/* Get ready CSS */
+.ready{
+    margin-top: 77px;
+    margin-bottom: 50px;
+}
+.ready h1{
+    font-size: 46px;
+    font-weight: normal;
+}
+.ready p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.ready .box{
+    display: flex;
+    position: relative;
+    background-color: #C4E6F5;
+    margin-top: 50px;
+}
+
+.ready .box .left{
+    width: 50%;
+}
+
+.ready .box .left h3{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.ready .box .left p{
+    text-align: left;
+    width: 100%;
+}
+
+.ready .box .right{
+    width: 50%;
+}
+.ready .box .right img{
+    max-width: 100%;
+}
+/* System  CSS*/
+.system{
+    margin: 60px auto;
+}
+.system h1{
+    font-size: 46px;
+    font-weight: normal;
+}
+
+.system .rec{
+    display: flex;
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+}
+.system .rec hr{
+    width: 650px;
+}
+
+.system .rec .left{
+    width: 50%;
+}
+
+.system .rec .right{
+    width: 50%;
+}
+
+/* BUY PC CSS */
+
+.buy h1{
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.buy .retailers .shop{
+    width: 10%;
+    display: inline-block;
+}
+
+
+
+.buy .retailers .shop a{
+    margin: 0;
+    margin-top: 10px;
+    color: blue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Note CSS */
+.note{
+    margin: 35px auto;
+}
+
+.note q{
+    color: red;
+    font-weight: bold;
+}
+
+/* Footer CSS */
+.footer{
+    background-color: #333333;
+    color: white;
+}
+.footer p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 19px;
+}
