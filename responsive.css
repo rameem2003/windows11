@@ -1,0 +1,280 @@
+
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .menu .left{
+        width: 100%;
+    }
+    .menu .left a{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .menu .left img{
+        width: 122px;
+    }
+
+    .menu .middle , .menu .right{
+        display: none;
+    }
+
+    .intro video{
+        width: 100%;
+        height: 100%;
+    }
+
+    .intro p{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .des p{
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .feature .row{
+        display: block;
+    }
+    /* First row */
+    .feature .row .r-1_c-1{
+        width: 100%;
+    }
+
+    .feature .row .r-1_c-1 h1{
+        text-align: center;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .feature .row .r-1_c-1 p{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .feature .row .r-1_c-2{
+        width: 100%;
+        text-align: center;
+    }
+    .feature .row .r-1_c-2 img{
+        width: 100%;
+    }
+
+    /* Second row */
+    .feature .row .r-2_c-1{
+        width: 100%;
+    }
+
+    .feature .row .r-2_c-1 img{
+        max-width: 100%;
+    }
+
+    .feature .row .r-2_c-2{
+        width: 100%;
+    }
+    .feature .row .r-2_c-2 h1{
+        text-align: left;
+        width: 100%;
+        display: block;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .feature .row .r-2_c-2 p{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* Containt */
+    .containt{
+        margin: 0;
+    }
+    .containt h1{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .containt p{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .containt img{
+        max-width: 100%;
+    }
+    
+    /* Gaming */
+    .gaming p{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+
+    /* Devices */
+    .devices{
+        margin: 0;
+    }
+
+    .devices h1{
+        text-align: left;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .devices p{
+        font-size: 18px;
+    }
+
+    .devices .pcupdate{
+        display: block;
+    }
+
+    .devices .pcupdate .left{
+        width: 100%;
+    }
+    .devices .pcupdate .right{
+        width: 100%;
+    }
+
+    .devices .pcupdate .right h1{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .devices .pcupdate .right p{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Subscriber */
+
+    .subcri-containt{
+        display: block;
+    }
+
+    .subcri-containt .left{
+        width: 100%;
+    }
+
+    .subcri-containt .left{
+        margin: 0;
+    }
+
+    .subcri-containt .left h1{
+        margin: 20px 30px;
+        text-align: center;
+    }
+
+    .subcri-containt .left p{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .subcri-containt .left a{
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+        margin: 0;
+    }
+    .subcri-containt .right{
+        width: 100%;
+    }
+
+    .subcri-containt img{
+        width: 50%;
+    }
+
+
+    /* Get ready */
+    .ready h1{
+        text-align: center;
+    }
+
+    .ready p{
+        width: 100%;
+        margin: 0;
+    }
+
+    .ready .box{
+        display: block;
+    }
+
+    .ready .box .left{
+        width: 100%;
+    }
+
+    .ready .box .left h3{
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .ready .box .left p{
+        text-align: center;
+        margin: 30px 0;
+    }
+    .ready .box .right{
+        width: 100%;
+    }
+
+    /* Sytem */
+    .system .rec{
+        display: block;
+    }
+    .system .rec .left{
+        width: 100%;
+    }
+    .system .rec .right{
+        width: 100%;
+    }
+
+
+    /* BUY */
+
+    .buy h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .buy .retailers{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .buy .retailers .shop{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .footer p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+}
