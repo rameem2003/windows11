@@ -372,21 +372,21 @@ body{
     font-weight: normal;
 }
 
-.system .rec{
+.system .sys{
     display: flex;
-    position: relative;
-    margin-top: 50px;
-}
-.system .rec hr{
-    width: 650px;
 }
 
-.system .rec .left{
+.system .sys .left{
     width: 50%;
+    text-align: left;
+}
+.system .sys .right{
+    width: 50%;
+    text-align: left;
 }
 
-.system .rec .right{
-    width: 50%;
+.system .sys table tr td{
+    border-bottom: 1px solid black;
 }
 
 /* BUY PC CSS */
