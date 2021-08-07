@@ -237,13 +237,14 @@
     }
 
     /* Sytem */
-    .system .rec{
+    .system .sys{
         display: block;
     }
-    .system .rec .left{
+
+    .system .sys .left{
         width: 100%;
     }
-    .system .rec .right{
+    .system .sys .right{
         width: 100%;
     }
 
